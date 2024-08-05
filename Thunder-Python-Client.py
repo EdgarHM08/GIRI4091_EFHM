@@ -1,6 +1,3 @@
-Para mejorar tu código, te sugiero hacer algunos ajustes, incluyendo el uso de bloques `try-except` para manejar errores y asegurar que las operaciones de consulta, adición, modificación y eliminación de productos sean más robustas. Aquí tienes una versión mejorada del código:
-
-```python
 import json
 import requests
 
@@ -137,14 +134,11 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
 
 ### Mejoras realizadas:
 
-1. **Errores manejados con `try-except`:** Se ha incluido el manejo de excepciones para capturar errores durante las solicitudes HTTP.
-2. **Consistencia en las URLs:** La URL del API es ahora dinámica según el número de producto.
-3. **Interfaz de usuario clara:** Un menú de opciones para navegar por las diferentes funcionalidades.
-4. **Funciones organizadas y modulares:** Cada funcionalidad se encapsula en su propia función, lo que facilita la lectura y el mantenimiento del código.
-5. **Validación de opciones del menú:** Se verifica que la opción elegida sea válida.
-
-Con este código, puedes manejar de forma más segura los errores que puedan surgir al interactuar con la API.
+#1. **Errores manejados con `try-except`:** Se ha incluido el manejo de excepciones para capturar errores durante las solicitudes HTTP.
+#2. **Consistencia en las URLs:** La URL del API es ahora dinámica según el número de producto.
+#3. **Interfaz de usuario clara:** Un menú de opciones para navegar por las diferentes funcionalidades.
+#4. **Funciones organizadas y modulares:** Cada funcionalidad se encapsula en su propia función, lo que facilita la lectura y el mantenimiento del código.
+#5. **Validación de opciones del menú:** Se verifica que la opción elegida sea válida.
